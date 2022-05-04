@@ -1,0 +1,12 @@
+{
+  "name": "lovell.info",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -o ./docs/style.css --minify",
+    "watch": "tailwindcss -o ./docs/style.css -i ./src/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
