@@ -11,12 +11,15 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@lovell" />
     <meta property="og:title" content="Lovell Fuller" />
-    <meta property="og:description" content="Internet Technologist - London, UK" />
+    <meta
+      property="og:description"
+      content="Internet Technologist - London, UK"
+    />
     <meta property="og:url" content="https://lovell.info" />
     <meta property="og:image" content="https://lovell.info/lovell-192.jpg" />
   </head>
   <body>
-    <div class="flex flex-col p-8 space-y-4 items-center">
+    <header class="flex flex-col p-8 pb-2 space-y-4 items-center">
       <div class="flex-row">
         <picture>
           <source srcset="lovell-192.avif" type="image/avif" />
@@ -30,10 +33,12 @@
         </picture>
       </div>
       <div class="flex-row text-center">
-        <div class="text-lg text-slate-900 font-bold">Lovell Fuller</div>
-        <div class="text-slate-700"><p>Internet Technologist</p></div>
+        <h1 class="text-lg text-slate-900 font-bold">Lovell Fuller</h1>
+        <h2 class="text-slate-700">Internet Technologist</h2>
       </div>
-      <div class="flex-row text-center pt-8">
+    </header>
+    <main class="flex flex-col p-8 space-y-4 items-center">
+      <div class="flex-row text-center pt-2">
         <a href="https://twitter.com/lovell" alt="Lovell's tweets on Twitter"
           ><div
             class="w-96 rounded-lg p-4 bg-slate-200 text-slate-700 transition ease-in-out delay-50 hover:scale-105 hover:bg-slate-300 duration-200"
@@ -115,7 +120,7 @@
           </div></a
         >
       </div>
-    </div>
+    </main>
     <script async>
       window.addEventListener("DOMContentLoaded", () =>
         document
