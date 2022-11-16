@@ -1,0 +1,23 @@
+{
+  "subject": "acct:fediverse@lovell.info",
+  "aliases": [
+    "https://mastodon.social/@lovell",
+    "https://mastodon.social/users/lovell"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.social/@lovell"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.social/users/lovell"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
